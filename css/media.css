@@ -1,0 +1,91 @@
+/* *=====================MOBILE========================= */
+
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 426px;
+    }
+}
+
+/* *=======================TABLET================================== */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 798px;
+    }
+
+    .goals-section-list {
+        gap: 72px 24px;
+
+
+    }
+
+    .goals-section-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .goals-section-title {
+        justify-content: flex-start;
+    }
+}
+
+/* *========================DESKTOP============================= */
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    .goals-section {
+        padding-top: 120px;
+    }
+
+    .goals-section-list {
+        gap: 24px;
+    }
+
+    .goals-section-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .goals-icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+
+    .goals-section-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .doing-section {
+        padding-top: 120px;
+        display: block;
+    }
+
+    .doing-section-title {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--title-secondColor);
+        margin-bottom: 72px;
+    }
+
+    .doing-section-list {
+        display: flex;
+        gap: 24px;
+
+
+    }
+
+    .doing-section-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+}
