@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 428px) {
     .container {
-        max-width: 426px;
+        max-width: 428px;
     }
 }
 
@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 798px;
+        max-width: 768px;
     }
 
     .goals-section-list {
@@ -26,14 +26,34 @@
     .goals-section-title {
         justify-content: flex-start;
     }
+
+
+
+    .team-section {
+        padding-top: 96px;
+
+    }
+
+    .team-section-list {
+        gap: 64px 24px;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .team-section-item {}
+
 }
 
 /* *========================DESKTOP============================= */
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1440px;
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
+    /* ======================================= */
     .goals-section {
         padding-top: 120px;
     }
@@ -62,8 +82,9 @@
         line-height: 1.2;
     }
 
+    /* ======================================= */
     .doing-section {
-        padding-top: 120px;
+        padding: 120px 0;
         display: block;
     }
 
@@ -88,4 +109,16 @@
         width: calc((100% - 48px) / 3);
     }
 
+    /* ============================================ */
+    .team-section {
+        padding: 120px 0;
+    }
+
+    .team-section-list {
+        gap: 24px;
+    }
+
+    .team-section-item {
+        width: calc((100% - 72px) / 4);
+    }
 }
