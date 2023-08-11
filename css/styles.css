@@ -319,7 +319,6 @@ ol {
 .team-section {
     width: 100%;
     background-color: #F4F4FD;
-    /* padding: 120px 0; */
     padding: 96px 0;
 }
 
@@ -411,8 +410,7 @@ ol {
 
 /** ------------------------------------------------------------Customers------------------- */
 .customers-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 96px 0;
 }
 
 .customers-container {}
@@ -430,12 +428,15 @@ ol {
 
 .customers-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px 16px;
 }
 
 .customers-item {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 16px) / 2);
     height: 88px;
+    max-width: 168px;
 }
 
 .customers-link {
