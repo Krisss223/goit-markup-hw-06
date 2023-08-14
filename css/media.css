@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        /* max-width: 768px; */
+        max-width: 768px;
     }
 
     .first-section {
@@ -18,6 +18,17 @@
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/tablet.jpg);
 
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .first-section {
+            background-color: var(--mainSectionBackground-color);
+            padding: 112px 54px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/people-tab.jpg);
+        }
     }
 
     .first-title {
@@ -97,6 +108,18 @@
         padding: 188px 472px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/people-office.jpg);
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .first-section {
+            background-color: var(--mainSectionBackground-color);
+            padding: 112px 54px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/people-desk.jpg);
+        }
     }
 
     .first-title {
