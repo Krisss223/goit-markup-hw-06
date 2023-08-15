@@ -129,7 +129,11 @@
     }
 
     /* ========================================= */
-    .footer-container-general {}
+    .footer-page {}
+
+    .footer-container-general {
+        max-width: 584px;
+    }
 
     .footer-container-tab {
         display: flex;
@@ -161,17 +165,36 @@
 
     .footer-form {
         flex-direction: row;
+        gap: 24px;
+    }
+
+    .footer-form-email {
+        min-width: 264px;
     }
 
     .footer-form-button {
-        margin-left: 24px;
+        margin: 0;
     }
 
+    .portfolio-lict-button {
+        justify-content: center;
+    }
+
+    .portfolio-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .portfolio-item {
+        width: calc((100% - 24px) / 2);
+    }
 
     /* =================================== */
     .modal {
         width: 408px;
     }
+
 }
 
 /* *========================DESKTOP============================= */
@@ -310,14 +333,60 @@
     }
 
     /* ========================= */
-    .footer-page {}
+    .footer-page {
+        display: flex;
+        justify-content: flex-start;
+        padding: 100px 156px;
+
+    }
+
+
 
     .footer-container-general {
         display: flex;
         align-items: baseline;
+        width: 100%;
+
+    }
+
+    .footer-container-tab {
+        margin: 0;
     }
 
     .text-footer {
         min-width: 264px;
+
+    }
+
+    .socials-footer-container {
+        margin-left: 120px;
+    }
+
+    .footer-form-conteiner {
+        margin-left: 80px;
+    }
+
+    /* ================================= */
+    .portfolio-section {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+    .portfolio-lict-button {
+        gap: 24px;
+        margin-bottom: 72px;
+        justify-content: center;
+    }
+
+    .portfolio-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+
+    }
+
+    .portfolio-item {
+        width: calc((100% - 48px) / 3);
     }
 }
