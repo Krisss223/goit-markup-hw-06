@@ -13,6 +13,41 @@
         max-width: 768px;
     }
 
+    .header {
+        padding: 16px 16px;
+        max-height: 72px;
+    }
+
+    .header-navigation-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header-address {
+        font-style: normal;
+        display: flex;
+        margin-left: auto;
+    }
+
+    .header-address-list {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .header-address-link {
+        color: var(--slate, #434455);
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.7;
+        letter-spacing: 0.04em;
+    }
+
+    .header-button-mob {
+        display: none;
+    }
+
     .first-section {
         padding: 112px 136px 112px 136px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -94,6 +129,49 @@
     }
 
     /* ========================================= */
+    .footer-container-general {}
+
+    .footer-container-tab {
+        display: flex;
+        gap: 24px;
+        align-items: flex-start;
+    }
+
+    .footer-logo {
+        margin-right: auto;
+    }
+
+    .socials-footer-container {
+        margin: 0;
+    }
+
+    .socials-footer-text {
+        margin-right: auto;
+    }
+
+    .footer-container {}
+
+    .footer-form-conteiner {
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content: center; */
+
+        align-items: flex-start;
+    }
+
+    .footer-form {
+        flex-direction: row;
+    }
+
+    .footer-form-button {
+        margin-left: 24px;
+    }
+
+
+    /* =================================== */
+    .modal {
+        width: 408px;
+    }
 }
 
 /* *========================DESKTOP============================= */
@@ -102,6 +180,22 @@
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .header {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid var(--border, #E7E9FC);
+    }
+
+    .header-navigation-list {}
+
+    .header-address {}
+
+    .header-address-list {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
     }
 
     .first-section {
@@ -213,5 +307,17 @@
 
     .customers-item {
         width: calc((100% - 120px) / 6);
+    }
+
+    /* ========================= */
+    .footer-page {}
+
+    .footer-container-general {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .text-footer {
+        min-width: 264px;
     }
 }
