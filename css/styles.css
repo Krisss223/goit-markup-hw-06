@@ -719,6 +719,7 @@ ol {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 72px;
 }
 
 .footer-form-title {
@@ -728,7 +729,6 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    margin-top: 72px;
 }
 
 .footer-form {

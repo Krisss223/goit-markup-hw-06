@@ -142,12 +142,21 @@
         max-width: 584px;
     }
 
-    .text-footer {
+    .footer-container {
         margin-right: 24px;
     }
 
+    .footer-logo {
+        margin-right: auto;
+    }
+
+    .text-footer {}
+
     .socials-footer-container {
         margin: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+
     }
 
     .footer-form-conteiner {
@@ -168,6 +177,10 @@
 
     .footer-form-email {
         width: 264px;
+    }
+
+    .footer-form-button {
+        margin: 0;
     }
 
 
@@ -234,6 +247,7 @@
         padding: 188px 472px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/people-office.jpg);
+        max-width: 1440px;
 
     }
 
@@ -242,7 +256,7 @@
     (min-resolution: 2dppx) {
         .first-section {
             background-color: var(--mainSectionBackground-color);
-            padding: 112px 54px;
+            padding: 188px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                 url(../images/people-desk.jpg);
         }
